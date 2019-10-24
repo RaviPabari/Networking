@@ -12,4 +12,3 @@ def FindMyPublicIp():
     print("Your Public IP is " + ip)
   
 FindMyPublicIp()
-
