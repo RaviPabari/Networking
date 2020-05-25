@@ -3,7 +3,7 @@
 
 import os
 host = input("Enter IP address or Host name :")
-ping = os.system("Ping "+str(host))
+ping = os.system("ping "+str(host))
 
 if ping == 0:
     print("The host is UP!!!")
